@@ -11,3 +11,8 @@ body {
   border-bottom: 1px solid #2F4F4F;
   background-color: rgba(0,0,0,.1)
 }
+.header {
+  background-color: #D3D3D3;
+  text-align: center;
+
+}
