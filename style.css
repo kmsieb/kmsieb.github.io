@@ -1,49 +1,46 @@
-body {
+body{
   display: grid;
   grid-template-columns: 0.5fr 1.5fr;
   font-family: Times, serif;
-}
-
-@media (max-width: 400px) {
-  body {
+  background-image: url("https://www.bypeople.com/wp-content/uploads/2014/05/light-live-background-css.jpg");
+  background-repeat: repeat
+  @media (max-width: 400px){
     width: 100%;
   }
 }
+#aside{
+  background-color: #88b2aa;
 
-#aside {
-  background-color: #293e49;
   color: white;
 }
-
-.info {
+.info{
   margin-left: 50px;
-}
 
-.aside-title1 {
+}
+.aside-title1{
   margin: 40px 0 10px 50px;
 }
-
-.aside-title {
+.aside-title{
   margin: 0 0 10px 50px;
 }
-
-span {
-  color: #a9b1b6;
+span{
+  color: #808077;
 }
-
-#main {
+#main{
   margin: 0 50px;
 }
+.full-name{
+  color: #88b2aa;
 
-.full-name {
-  color: #293e49;
 }
+.soften-header{
+  color: #808077;
 
-.company-name {
-  color: #293e49;
 }
-
-a, a:hover, a:visited {
+.company-name{
+  color: #88b2aa;
+}
+a, a :hover, a :visited{
   text-decoration: none;
   color: #fff;
 }
