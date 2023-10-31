@@ -1,40 +1,49 @@
-body{
+body {
   display: grid;
   grid-template-columns: 0.5fr 1.5fr;
   font-family: Times, serif;
-  @media (max-width: 400px){
+}
+
+@media (max-width: 400px) {
+  body {
     width: 100%;
   }
 }
-#aside{
-  background-color: #293e49;
 
+#aside {
+  background-color: #293e49;
   color: white;
 }
-.info{
-  margin-left: 50px;
 
+.info {
+  margin-left: 50px;
 }
-.aside-title1{
+
+.aside-title1 {
   margin: 40px 0 10px 50px;
 }
-.aside-title{
+
+.aside-title {
   margin: 0 0 10px 50px;
 }
-span{
+
+span {
   color: #a9b1b6;
 }
-#main{
+
+#main {
   margin: 0 50px;
 }
-.full-name{
-  color: #293e49;
 
-}
-.company-name{
+.full-name {
   color: #293e49;
 }
-a, a :hover, a :visited{
+
+.company-name {
+  color: #293e49;
+}
+
+a, a:hover, a:visited {
   text-decoration: none;
   color: #fff;
 }
