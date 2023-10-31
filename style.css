@@ -27,8 +27,8 @@ span{
 #main{
   margin: 0 50px;
 }
-.job-desc{
-  font-size: 20px;
+.company-name{
+  color: #293e49;
 }
 a, a :hover, a :visited{
   text-decoration: none;
