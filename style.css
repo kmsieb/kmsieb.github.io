@@ -39,6 +39,7 @@ span{
 }
 .company-name{
   color: #88b2aa;
+  margin-bottom: 0; /* Reduces margin below line breaks */
 }
 a, a :hover, a :visited{
   text-decoration: none;
